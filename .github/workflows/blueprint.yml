@@ -33,7 +33,7 @@ jobs:
           use-github-cache: false
 
       - name: Compile blueprint and documentation
-        uses: jcreedcmu/docgen-action
+        uses: jcreedcmu/docgen-action@main
         with:
           api-docs: false
           api_docs: false
