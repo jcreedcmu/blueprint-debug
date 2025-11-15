@@ -33,7 +33,7 @@ jobs:
           use-github-cache: false
 
       - name: Compile blueprint and documentation
-        uses: jcreedcmu/docgen-action@b4f854219eefbc4155c1c62145f1c5a18efa366b
+        uses: jcreedcmu/docgen-action@main
         with:
           api-docs: "jibber"
           api_docs: "jabber"
