@@ -35,6 +35,6 @@ jobs:
       - name: Compile blueprint and documentation
         uses: jcreedcmu/docgen-action@main
         with:
-          api-docs: false
+          lake-package-directory: foobar
           blueprint: false
           homepage: home_page
