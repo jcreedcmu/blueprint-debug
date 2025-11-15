@@ -35,7 +35,7 @@ jobs:
       - name: Compile blueprint and documentation
         uses: jcreedcmu/docgen-action@b4f854219eefbc4155c1c62145f1c5a18efa366b
         with:
-          api-docs: false
-          api_docs: false
+          api-docs: "false"
+          api_docs: "false"
           blueprint: true
           homepage: home_page
