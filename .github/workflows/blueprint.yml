@@ -30,7 +30,7 @@ jobs:
       - name: Build the project
         uses: leanprover/lean-action@434f25c2f80ded67bba02502ad3a86f25db50709 # v1.3.0
         with:
-          working-directory: inner_directory
+          lake-package-directory: inner_directory
           use-github-cache: false
 
       - name: Compile blueprint and documentation
