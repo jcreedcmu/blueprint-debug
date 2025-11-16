@@ -35,5 +35,5 @@ jobs:
       - name: Compile blueprint and documentation
         uses: jcreedcmu/docgen-action@main
         with:
-          blueprint: false
+          blueprint: "false"
           homepage: home_page
