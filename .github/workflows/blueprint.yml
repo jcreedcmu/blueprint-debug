@@ -35,6 +35,7 @@ jobs:
       - name: Compile blueprint and documentation
         uses: jcreedcmu/docgen-action@main
         with:
+          lake-package-directory: inner_directory
           blueprint: true
           homepage: home_page
           api-docs: false
