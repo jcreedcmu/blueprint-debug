@@ -37,6 +37,6 @@ jobs:
         uses: jcreedcmu/docgen-action@debug
         with:
           lake-package-directory: inner_directory
-          homepage: home_page
           blueprint: true
+          homepage: home_page
           api-docs: false
