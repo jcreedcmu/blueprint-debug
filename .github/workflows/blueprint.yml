@@ -34,7 +34,7 @@ jobs:
           use-github-cache: false
 
       - name: Compile blueprint and documentation
-        uses: jcreedcmu/docgen-action@debug
+        uses: jcreedcmu/docgen-action@main
         with:
           lake-package-directory: inner_directory
           blueprint: true
