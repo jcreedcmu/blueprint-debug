@@ -27,10 +27,10 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
 
-      # - name: Build the project
-      #   uses: leanprover/lean-action@434f25c2f80ded67bba02502ad3a86f25db50709 # v1.3.0
-      #   with:
-      #     use-github-cache: false
+      - name: Build the project
+        uses: leanprover/lean-action@434f25c2f80ded67bba02502ad3a86f25db50709 # v1.3.0
+        with:
+          use-github-cache: false
 
       - name: Compile blueprint and documentation
         uses: jcreedcmu/docgen-action@main
