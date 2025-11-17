@@ -1,3 +1,10 @@
--- This module serves as the root of the `BlueprintDebug` library.
--- Import modules here that should be built as part of the library.
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 import BlueprintDebug.Basic
+
+open Real
+
+/--
+Some docstring for this guy
+-/
+noncomputable
+def foobar := 123 + π

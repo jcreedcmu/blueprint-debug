@@ -1,1 +1,15 @@
 /inner_directory/.lake
+inner_directory/blueprint/print
+inner_directory/blueprint/web
+inner_directory/blueprint/src/web.paux
+inner_directory/blueprint/src/web.bbl
+inner_directory/blueprint/lean_decls
+texput.log
+
+# These are created if you manually run tex in blueprint/src
+inner_directory/blueprint/src/print.aux
+inner_directory/blueprint/src/print.bbl
+inner_directory/blueprint/src/print.blg
+inner_directory/blueprint/src/print.log
+inner_directory/blueprint/src/print.out
+inner_directory/blueprint/src/print.pdf
