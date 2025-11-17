@@ -22,13 +22,13 @@ title: Blueprint Debug
 #email: your-email@example.com
 description: by Jason Reed
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jcreedcmu.github.io/blueprint-test" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jcreedcmu.github.io/blueprint-debug" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: jcreedcmu
-repository: jcreedcmu/blueprint-test
+repository: jcreedcmu/blueprint-debug
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0 
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-github-metadata
