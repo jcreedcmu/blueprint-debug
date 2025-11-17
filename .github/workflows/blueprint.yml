@@ -38,5 +38,5 @@ jobs:
         with:
           lake-package-directory: inner_directory
           homepage: inner_directory/home_page
-          blueprint: true
           api-docs: true
+          blueprint: true
